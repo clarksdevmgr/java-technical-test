@@ -17,6 +17,18 @@ public class Product {
     @Column(name = "id", nullable = false, updatable = false)
     private String productId;
 
+    @NotNull
+    @Column(name="style")
+    private String style;
+
+    @NotNull
+    @Column(name="colour")
+    private String colour;
+
+    @NotNull
+    @Column(name="price")
+    private float price;
+
     private Product() {
     }
 
@@ -32,6 +44,9 @@ public class Product {
     public String toString() {
         return Objects.toStringHelper(this)
                 .add("productId", productId)
+                .add("style", style)
+                .add("colour", colour)
+                .add("price", price)
                 .toString();
     }
 }

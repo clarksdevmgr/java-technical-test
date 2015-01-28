@@ -5,11 +5,12 @@
 
 <html>
 <head>
-    <title></title>
+    <title>Clarks Technical Test</title>
 </head>
 <body>
+    <p><strong>Example products</strong></p>
     <c:forEach items="${products}" var="product">
-        <h1>${product}</h1>
+        ${product}<br>
     </c:forEach>
 </body>
 </html>
