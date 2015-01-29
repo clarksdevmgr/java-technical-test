@@ -17,8 +17,14 @@ optional. Design the JSON schema you feel is appropriate given the existing data
 Add any necessary unit or integration tests.
 
 You may use any IDE or text editor you are comfortable with. You are encouraged to add any open source third-party
-library (must be available on Maven Central) that you feel makes your task easier. You may make any structural
-changes to the project that you see fit.
+library (must be available on [Maven Central](http://search.maven.org/#browse)) that you feel makes your task easier. You may make any structural changes to the project that you see fit.
+
+
+Requirements
+------------
+
+* Java 1.8 ([JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html))
+* [Maven 3.x](http://maven.apache.org/download.cgi) 
 
 
 Quick start
