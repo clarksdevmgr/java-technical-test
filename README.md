@@ -30,8 +30,7 @@ Requirements
 Quick start
 -----------
 
-1. `git clone https://bitbucket.org/clarks/java-technical-test.git`
-2. `cd java-technical-test`
+1. Clone repository 
 2. `mvn package`
 3. `java -jar target/technical-test-1.0-SNAPSHOT.war`
 4. Point your browser to [http://localhost:8080/](http://localhost:8080/)
